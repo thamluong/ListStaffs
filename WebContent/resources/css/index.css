@@ -1,0 +1,43 @@
+html,body{
+    margin:0;
+    height:100%;
+    overflow:scroll;
+    /* background: url(http://wallpaper.zone/img/2576634.jpg); */
+}
+
+body{
+	
+   	font-family: Monospace;
+}
+
+.table {
+	font-weight:bold;
+}
+img {
+	display: block;
+	max-width: 200px;
+	max-height: 250px;
+	width: auto;
+	height: 100%;
+}
+#detail, #delete {
+	width: 150px;
+}
+
+.table tr td:first-child{
+	color:orange strong;
+}
+
+.table[name="main-table"]{
+	border: 1; text-align: center;
+	
+}
+.table[name="addstaff-table"] tr td:nth-child(2){
+	width: 100%;
+}
+.detail .modal-content {
+	width: 350px;
+}
+.modal-content{
+	width: 500px;
+}
