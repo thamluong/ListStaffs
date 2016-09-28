@@ -9,13 +9,12 @@ import org.o7planning.tutorial.springmvcjdbc.mapper.StaffMapper;
 import org.o7planning.tutorial.springmvcjdbc.model.Staff;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Component;
 
-@Service
-@Transactional
+//@Service
+//@Transactional
+@Component
 public class StaffDAOImpl extends JdbcDaoSupport implements StaffDAO{
-
 	@Autowired
 	public StaffDAOImpl(DataSource dataSource) {
 		this.setDataSource(dataSource);

@@ -5,7 +5,7 @@
    http://www.springframework.org/schema/beans/spring-beans.xsd">
  
  
-   <bean id="myDataSource"
+   <bean id="dataSource"
        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
  
        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -13,5 +13,5 @@
        <property name="username" value="root" />
        <property name="password" value="12345" />
    </bean>
- 
+
 </beans>
